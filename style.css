@@ -1,0 +1,86 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cairo&family=Salsa&display=swap');
+
+:root {
+	--accent-color: #b4b21b;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-row {
+	flex-direction: row;
+}
+
+.flex-col {
+	flex-direction: column;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.min-h-screen {
+	min-height: 100vh;
+}
+
+.m-0 {
+	margin: 0;
+}
+
+.p-4 {
+	padding: 1rem;
+}
+
+.font-heading {
+    font-family: 'Salsa', cursive;
+}
+
+.font-text {
+    font-family: 'Cairo', sans-serif;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.gap {
+	gap: var(--gap);
+}
+
+.object-cover {
+	object-fit: cover;
+}
+
+.object-contain {
+	object-fit: contain;
+}
+
+.boxlink1 {
+	display: block;
+	border-left: 1px;
+	border-bottom: 1px;
+	border-color: #ccc;
+	border-style: solid;
+	padding: .25rem .5rem;
+}
+
+.boxlink2 {
+	display: block;
+	padding: .25rem .5rem;
+	background: #ccc;
+	color: #fff;
+}
+
+.btn {
+	display: block;
+	padding: .25em .5em;
+	border-width: 1px;
+	border-style: solid;
+	border-color: var(--accent-color);
+	color: var(--accent-color);
+}
+
+.grayscale {
+	filter: grayscale(100%);
+}
